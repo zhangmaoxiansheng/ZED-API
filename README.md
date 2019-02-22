@@ -1,4 +1,4 @@
-# Stereolabs ZED - OpenCV - API
+# ZED - OpenCV - API
 
 ## Getting started
 
@@ -16,7 +16,7 @@ change mode:
 
 - press a:auto save stereo image in ./images;
 - press b:manual mode->prss s:save side-by-side images;p:Point Cloud;d:depth image;k:get the left_right image
-- press c:autp save stereo image and depth image in ./images and ./depth;
+- press c:auto save stereo image and depth image in ./images and ./depth;
 - press d:setting mode:set parameters->input exposure,brightness,gain,whitebalance.
 - press z:quit the current mode.(In setting mode, after updating the parameters, quit the setting mode immediately without 'z')
 
