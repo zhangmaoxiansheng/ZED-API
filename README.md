@@ -12,7 +12,7 @@
 
 ### Usage
 
-change mode:
+In camera api, you can see the left,right and depth image, and you can choose different modes:
 
 - press a:auto save stereo image in ./images;
 - press b:manual mode->prss s:save side-by-side images;p:Point Cloud;d:depth image;k:get the left_right image
@@ -20,13 +20,25 @@ change mode:
 - press d:setting mode:set parameters->input exposure,brightness,gain,whitebalance.
 - press z:quit the current mode.(In setting mode, after updating the parameters, quit the setting mode immediately without 'z')
 
+In camera-control
+
+- This table lists keyboard shortcuts that you can use. Press the key to change the setting and the result can be seen. 
+- Parameters can be changed: Exposure,Gain,Saturation,Hue,Contrast,Brightness
+- Setting mode(d) in camera api can also change the parameters.
+
+Parameter             | Description                   |   Hotkey
+---------------------|------------------------------------|-------------------------------------------------
+Switch settings | Toggle between camera settings | 's'
+Increase settings value | Increase current settings value | '+'
+Decrease settings value | Decrease current settings value | '-'
+Reset | Reset all parameters to default values | 'r'
+Exit         | Quit the application             | 'q'
+
+
 
 ### C++
 
 Read the [guide](./cpp) to learn how to build and launch this sample in C++.
 
-### Python
-
-Read the [guide](./python) to learn how to build and launch this sample in Python.
 
 
